@@ -1,0 +1,80 @@
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+    margin-left: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px;
+    height: 480px !important;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    border-radius: 15px 15px 0 0;
+    height: 270px;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+}
+
+.card-header {
+    background-color: transparent;
+    border-bottom: none;
+    padding: 15px 20px;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-header img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.card-header .card-title {
+    margin-bottom: 0;
+    color: #000;
+}
+
+.card-header .time-ago {
+    color: #aaa;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.card-footer {
+    background-color: transparent;
+    border-top: none;
+    padding: 15px 20px;
+}
+
+.card-footer .btn {
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    margin: 0px 10px;
+}
+
+.card-footer .btn:hover {
+    background-color: #0056b3;
+}
